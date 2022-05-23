@@ -1,0 +1,223 @@
+
+
+#ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+	width:105%;
+
+}
+
+#li1 {
+    float: left;
+}
+
+#li1 
+#a1 {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+	max-height:10%;
+	font-size:15pt;
+	border-right:  2pt  solid blue;
+}
+
+#li1 
+#a1:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: d5f9ff;
+}
+
+
+#ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+	box-sizing: border-box;
+	height:100%;
+}
+
+#li2 #a2 {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	border-bottom: 2pt solid blue;
+	
+}
+
+
+#li2 #a2:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active1 {
+    background-color: d5f9ff;
+	z-index:2;
+}
+
+
+
+#padding {
+  background-color:d5f9ff;
+  padding: 30px;
+  min-height:120%;
+  
+}
+
+
+
+#p1 {
+	text-align:justify; 
+font-size:14pt;
+text-indent: 30px;
+
+}
+
+
+
+
+
+
+
+
+.page-container::after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.header { 
+top:0;
+    left:0;
+    position:relative;
+  clear: auto;
+
+}
+
+
+.col1 {
+  float: left;
+  background-color: lightgray;
+  height: 110%;
+  width: 20%;
+  overflow: hidden; 
+  padding:  0;
+}
+
+.main {
+  float: left;
+  background-color: lightblue;
+  width: 70%;    
+}
+
+.col2 {
+  float: left;
+  background-color: lightgray;
+  height: 110%;
+  width: 10%;
+  overflow: hidden; 
+  padding:  0;
+}
+
+
+
+
+.footer1{
+border-top:2pt solid blue;
+background: #f7ece6;
+color: 9b9b9b;
+height: 50px;
+line-height: 50px;
+position: relative;
+left:20%;
+bottom: 0;
+width: 70%;
+text-align: center;
+font-size:20px;
+        }
+
+.sticky1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding:  0;
+  z-index: 2;
+}
+
+
+.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding:0;
+  z-index: 1;
+
+}
+
+
+
+
+
+
+
+.dropbtn {
+	display: inline-block;
+	font: 20px Times New Roman;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 15px 80px;
+    border: none;
+    cursor: pointer;
+	
+}
+
+.dropdown {
+
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 340px;
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	color: red;
+
+	}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #555;
+	    color: white;
+
+}
